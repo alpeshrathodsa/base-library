@@ -24,3 +24,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    spinKit = '1.4.0'
+    intuitSdpSssp = '1.0.6'
+}
